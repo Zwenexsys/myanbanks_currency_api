@@ -3,7 +3,7 @@ MyanBank Currency Exchange Rate API
 
 This is a small abstract code from one of our projects.
 Basically, it scraps the websites, subtract the necessary values, convert to hash and return as JSON.
-**Warning** : As it's a scrapper, the results may vary as the layout of the website varies. Please open an issue if you notice it.
+**Warning** : As it's a scrapper, the results may vary as the layout of the website varies. Please open an issue if you have noticed it.
 
 It currently supports the following banks.
 * [AGD Bank][1]
@@ -12,7 +12,7 @@ It currently supports the following banks.
 
 Quick Start Guide
 -----------------
-It can be run as a command line tool or a web application.
+It can be run as a command line tool or a web application. You will need Ruby and Git.
 
 ```bash
 $ git clone https://github.com/Zwenexsys/myanbanks_currency_api
@@ -32,7 +32,7 @@ Running web app
 $ ruby app.rb
 ```
 The web app should be running at `http://localhost:4567`.
-It accepts bank codes as `GET` params. (agd (or) cb (or) kbz)
+It accepts bank codes as `GET` parameter (agd (or) cb (or) kbz)
 
 
 Contributing
